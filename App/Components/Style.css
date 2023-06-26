@@ -1,0 +1,52 @@
+body{
+background-color: #3b3b3bc0;
+}
+
+.aling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inp{
+    padding: 10px;
+    margin: 5px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+    background: #fff7ffff;
+    border: none;
+}
+
+.btn:hover{
+    background:rgb(32, 32, 32);
+    transition: all 1s;
+    color: #fff;
+    border: none;
+}
+
+@media screen and (max-width: 980px) {
+    .aling{
+        margin-top: 200px;
+    }
+    
+}
+
+@media screen and (min-width: 980px) {
+    .aling{
+        margin-top: 200px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .aling{
+        margin-top: 180spx;
+    }
+}
